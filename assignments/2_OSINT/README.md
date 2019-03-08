@@ -18,10 +18,15 @@ NOTE: "briefly describe" = 2-3 sentences (and/or include screenshot(s))
 Use OSINT techniques to learn as much as you can about `v0idcache` and answer the following questions:
 
 1. What is `v0idcache`'s real name?
+	Elizabeth Moffet
 
 2. Where does `v0idcache` work? What is the URL to their website?
 
+	Banking CEO at http://1337bank.money/
+
 3. List all personal information (including social media accounts, contacts, etc) you can find about `v0idcache`. For each, briefly detail how you discovered them.
+	twitter: v0idcache (use of namechk.com) (follows umdcybersecurity)
+	
 
 4. List any ( >= 1 ) IP addresses associated with the website. For each, detail the location of the server, any history in DNS, and how you discovered this information.
 
