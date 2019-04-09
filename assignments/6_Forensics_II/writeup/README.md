@@ -26,4 +26,6 @@ Digital acknowledgement: Cheyenne Scott
 
 ### Part 2 (55 Pts)
 
-
+2. i. It was created 03/27/2019 @ 4:15am (UTC) or 1553660105 in unix time. 
+ii. The author is flinch
+iii.
