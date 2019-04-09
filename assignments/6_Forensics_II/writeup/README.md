@@ -26,6 +26,14 @@ Digital acknowledgement: Cheyenne Scott
 
 ### Part 2 (55 Pts)
 
-2. i. It was created 03/27/2019 @ 4:15am (UTC) or 1553660105 in unix time. 
+2. 
+i. It was created 03/27/2019 @ 4:15am (UTC) or 1553660105 in unix time. 
 ii. The author is flinch
-iii.
+iii. There were 5 sections:
+Section 1: ASCII: Hey you, keep looking :)
+Section 2: Coordinates: (52.336035, 4.880673)
+Section 3: PNG: pic of testudo
+Section 4: ASCII: }R983CSMC_perg_tndid_u0y_yllufep0h{-R983CSMC
+Section 5: ASCII: CMSC389R-{hey_h3y_y0U_you_I_dont_like_your_base64_encoding}
+
+

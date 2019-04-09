@@ -61,8 +61,9 @@ curr += 4
 s1l = struct.unpack("<L", data[curr:curr+4])[0]
 print("slen1: %s" % s1l)
 curr += 4
-s1v = struct.unpack("<LLLLLL", data[curr:curr+24])[0]
-print("sval1: %s" % s1v)
+s1v1,v2,v3,v4,v5,v6 = struct.unpack("<LLLLLL", data[curr:curr+24])
+print("sval1: %s" % s1v1)
+print(v2 % v3 % v4 % v5 % v6)
 curr += 24
 s2t = struct.unpack("<L", data[curr:curr+4])[0]
 print("stype2: %s" % hex(s2t))
@@ -98,3 +99,4 @@ curr += 4
 s5l = struct.unpack("<L", data[curr:curr+4])[0]
 print("slen5: %s" % s5l)
 curr += 4
+s5v = struct.unpack("<L", data[curr:curr+4])[0]
