@@ -62,6 +62,7 @@ int main(){
 	for(i = 0; i< sizeof(str2); i++){
 		printf("%02X ", str2[i]);
 	}
+	printf("\n");
 	//makes str1 a string
 	//prints str1
 	for(i = 0; i< sizeof(str1); i++){
@@ -77,9 +78,10 @@ output:
 ```
 0x1ceb00da
 0xfeedface
-30 78 57 06 00 64 66 61 63 65 00 30 00 31 63 65 62 30 30 64 61 00 
+30 78 57 06 00 64 66 61 63 65 00 
+30 00 31 63 65 62 30 30 64 61 00 
 ```
 
 ### Part 2 (10 Pts)
 
-*Replace this text with your repsonse to our prompt for part 2!*
+The program taking two strings, xors them three times, then prints the value of the xoring. It also prints each string out separately in the beginning. 

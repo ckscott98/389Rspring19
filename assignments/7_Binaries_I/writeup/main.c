@@ -46,6 +46,7 @@ int main(){
 	for(i = 0; i< sizeof(str2); i++){
 		printf("%02X ", str2[i]);
 	}
+	printf("\n");
 	//makes str1 a string
 	//prints str1
 	for(i = 0; i< sizeof(str1); i++){
