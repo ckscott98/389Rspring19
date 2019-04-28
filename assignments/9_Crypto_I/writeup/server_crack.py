@@ -14,10 +14,29 @@ def server_crack():
 
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	s.connect((server_ip, server_port))
-	data = s.recv(1024)
+
 	# parse data
 	# crack 3 times
-	
+	i = 0
+	while(i < 3):
+		data = s.recv(1024)
+		print(data)
+		data1 = data.splitlines()
+		s = data1[2]
+		
+		for c in characters:
+			for p in passwords:
+				passwd = c + p
+				hashed = hashlib.sha256(passwd.encode()).hexdigest()
 
+				if s == hashed:
+					print(p + ":" + s)
+					s.send(hashed + "\n")
+					time.sleep(1)
+					
+		data = s.recv(1024)
+		print(data)
+		i = i+1
+		
 if __name__ == "__main__":
 	server_crack()
